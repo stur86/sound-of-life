@@ -1,0 +1,115 @@
+@font-face { 
+        font-family: "Amaranth"; 
+        src: url('amaranth/Amaranth-Bold.otf'); 
+}
+
+body {
+    position: absolute;
+    background: #333333;
+    font-family: Amaranth;
+}
+
+.titlediv {
+    
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.matrix {
+
+    position: absolute;
+    background: #bbbbbb;
+}
+
+.box {
+    
+    position: absolute;
+    background: #444444;
+    cursor: pointer;
+    cursor: hand;
+    
+}
+
+.scrollbar {
+    
+    position: absolute;
+    background: #bbbbbb;
+    width: 40px;
+    border-radius: 10px;
+    
+}
+
+.scrollbutton {
+    
+    position: absolute;
+    background: #444444;    
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    margin: 2px;
+    
+    cursor: pointer;
+    cursor: hand;
+}
+
+.size_num {
+    
+    position: absolute;
+    font-size: 60px;
+    color: #ffffff;
+    
+}
+
+.startbutton {
+    
+    position: absolute;
+    font-size: 60px;
+    color: #444444;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+    cursor: pointer;
+    cursor: hand;
+    
+}
+
+.clearbutton {
+    
+    position: absolute;
+    font-size: 60px;
+    color: #444444;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+    cursor: pointer;
+    cursor: hand;
+    
+}
+
+.notebar {
+    
+    position: absolute;
+    background: #bbbbbb;
+    border-radius: 10px;
+    height: 60 px;
+    
+}
+
+.notebutton {
+    
+    position: absolute;
+    background: #ee0000;    
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 2px;
+    
+    cursor: pointer;
+    cursor: hand;
+}

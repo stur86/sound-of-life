@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!--
+
+Sound of Life
+
+A page by Simone Sturniolo
+
+Based on Conway's "Game of Life" original concept
+
+2014
+
+-->
+
+<html>
+<head>
+    
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="timbre.js"></script>
+    <script src="scripts.js"></script>
+    
+    <title>The sound of life</title>
+    
+</head>
+
+<body>
+    
+    <div class="titlediv">
+        The <span style="color: #ee2200">S</span><span style="color: #cc9922">o</span><span style="color: #77ee77">u</span><span style="color: #2299cc">n</span><span style="color: #0055cc">d</span> of Life
+    </div>
+    
+    <div class="scrollbar">
+    </div>
+    <div class="scrollbutton">
+    </div>
+    <div class="size_num">3</div>
+        
+    <div class="matrix">
+    </div>
+    
+    <div class="clearbutton">CLEAR</div>
+    <div class="startbutton">START</div>
+    
+    <div class="notebar">
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">
+        </div>
+        <div class="notebutton">            
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        
+        $(document).ready(function() {
+            init_matrix(gol_size);
+            init_scrollbar();
+            button_resize();
+            notebar_resize();
+            title_resize();
+            
+            $(".startbutton").click(start_gol);
+            $(".clearbutton").click(init_matrix);
+            
+        });
+        
+    </script>
+
+</body>
+</html>
